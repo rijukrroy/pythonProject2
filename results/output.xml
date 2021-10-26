@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.2 (Python 3.10.0 on win32)" generated="20211026 09:53:41.349" rpa="false" schemaversion="2">
+<suite id="s1" name="TestSuite" source="C:\Users\40015321\PycharmProjects\pythonProject2\testsuite\TestSuite.robot">
+<test id="s1-t1" name="Test Case: Initial Context Setup">
+<kw name="Context Setup validation" library="Keyword">
+<kw name="Initial Context Setup Request Encoding" library="Initial_Context_Setup_Request">
+<status status="PASS" starttime="20211026 09:53:41.442" endtime="20211026 09:53:41.443"/>
+</kw>
+<kw name="Move Msg" library="Initial_Context_Setup_Request">
+<status status="PASS" starttime="20211026 09:53:41.443" endtime="20211026 09:53:41.444"/>
+</kw>
+<kw name="Validation" library="Initial_Context_Setup_Request">
+<msg timestamp="20211026 09:53:41.446" level="INFO">Inside Validation
+1
+1
+Passed
+237
+237
+Passed
+212
+212
+Passed
+56
+56
+Passed
+45
+45
+Passed
+87
+87
+Passed
+57
+57
+Passed
+{'Message_Type': '1', 'AMF_UE_NGAP_ID': '237', 'RAN_UE_NGAP_ID': '212', 'Old_AMF': '56', 'UE_Aggregate_Maximum_Bit_Rate': '45', 'Core_Network_Assistance_Information': '87', 'GUAMI': '57'}</msg>
+<status status="PASS" starttime="20211026 09:53:41.444" endtime="20211026 09:53:41.446"/>
+</kw>
+<status status="PASS" starttime="20211026 09:53:41.442" endtime="20211026 09:53:41.446"/>
+</kw>
+<status status="PASS" starttime="20211026 09:53:41.441" endtime="20211026 09:53:41.446"/>
+</test>
+<status status="PASS" starttime="20211026 09:53:41.353" endtime="20211026 09:53:41.450"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="TestSuite">TestSuite</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
